@@ -22,12 +22,12 @@ code {
 }
 
 h1 {
-  color: #B22234;
+  color: #b22234;
   text-align: center;
 }
 
 a {
-  color: #B22234;
+  color: #b22234;
 }
 
 .container {
@@ -40,14 +40,14 @@ a {
   text-align: center;
 }
 
-
 .MainNavbar {
   height: 50px;
-  background-color: #3C3B6E;
+  background-color: #3c3b6e;
   color: white;
   display: flex;
   align-items: center;
   padding: 10px;
+  justify-content: space-between;
 }
 
 .MainNavbar__link {
@@ -68,6 +68,15 @@ a {
   margin: auto;
 }
 
-.table-center td, .table-center th {
+.table-center td,
+.table-center th {
   padding: 8px;
+}
+
+.links > * {
+  padding: 1%;
+}
+
+.links {
+  margin-right: 2%;
 }
